@@ -1,0 +1,251 @@
+Name: Alarms
+Id: g=3293e7cd8de0bb06cc725e017a984470
+Type: AlarmsCategoryFolder
+Children:
+- Name: AllarmeConArea
+  Id: g=db6b5f340deea756bc2b071d7db5c17b
+  Supertype: OffNormalAlarmController
+  Children:
+  - Class: Reference
+    Target: ns=15;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=132
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=eb03c4acbf6f697153601749a79f7ff3
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=ad97436126968e3c2c8f894da857501c
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: LastEvent
+    Id: g=8a3f428cafec6af410f949057fbeba0f
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Area
+    Id: g=38467af7f2a54ee9594906a283e23ca2
+    Type: BaseDataVariableType
+    DataType: String
+  - Class: Reference
+    Type: GeneratesEvent
+    Target: g=53cb96f7da0d24afb21e9045d9cb902d
+- Name: AllarmeConArea1
+  Id: g=35a0d4fb07052cd3a076b73fea2fe48b
+  Type: AllarmeConArea
+  Children:
+  - Class: Reference
+    Target: ns=15;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=132
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=f00670859d0df36de984cba686030e8f
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=4efb8147b1870f06bfc1890682a57a97
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=b91764daca5c3bfb548950b3ef50982f
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Allarmi.0"
+      Children:
+      - Name: Mode
+        Id: g=69d3acd431bfe2fd7919e0b1f5086a2d
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=8c54f1d545dbbe4678191a70fd7c36ae
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Area
+    Id: g=d2e4ccf7c6068e7211fe03483198e11c
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Area1"
+  - Name: AutoAcknowledge
+    Id: g=2680c5de7b93089cf8d7cf89cb7444c6
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=91db47e639d6cadea2555a602b33dbfe
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Message
+    Id: g=0325117c55f372f7aff0e0f9da8b7da9
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Allame area 1"}
+- Name: AllarmeConArea2
+  Id: g=c51976170ff697c34254db7a2728f9c3
+  Type: AllarmeConArea
+  Children:
+  - Class: Reference
+    Target: ns=15;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=132
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=7bb3d90781cce8d552e44dfa6e170460
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=64e84c6b8f3da28a7889b7ae64e0b758
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=81d7cc0f90ec60c87bfd611101e75626
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Allarmi.1"
+      Children:
+      - Name: Mode
+        Id: g=fc8ad8f868d8c1913615731efe1962ca
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=c0a4b0984726db4eaaa9e9e7be726d3f
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Area
+    Id: g=12fea8705d8819e4163f6f81c9dd5ca8
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Area2"
+  - Name: AutoAcknowledge
+    Id: g=e7030e716044f7d7f55e0c801ff10be8
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=50a1037b03513a83a71a31ec86272f68
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Message
+    Id: g=78538507b937a8d647d00a8f94ae5cf6
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Allame area 2"}
+- Name: AllarmeConArea3
+  Id: g=b032fe14d3983dcb4e5fc2ea8066d706
+  Type: AllarmeConArea
+  Children:
+  - Class: Reference
+    Target: ns=15;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=132
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=5d8935a32a4d1fdbcfb541bd9a3e30d9
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=d0f452dcd5af2ee159c71a584b532a34
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=205f365cda0761f0ffa65578d8e02d75
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Allarmi.2"
+      Children:
+      - Name: Mode
+        Id: g=d00e124eb52a9ce45315e34c9571ed5d
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=35d91b537f2d146bd18e5e653191c8ca
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Area
+    Id: g=4335f41c2021d99a739f27c021b1f212
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Area3"
+  - Name: AutoAcknowledge
+    Id: g=f9e31eb0fab159d7efbd4b8ffb2bf5e8
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=7d701e5868ba20d70f7bcc2f9aa79356
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Message
+    Id: g=1b100b7a179bcc34f6b5e258ed532f9a
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"en-US","Text":"Allame area 3"}
