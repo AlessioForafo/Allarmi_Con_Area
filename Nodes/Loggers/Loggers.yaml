@@ -180,16 +180,6 @@ Children:
     - Name: Area
       Type: EventFieldToLog
       DataType: String
-      ValueRank: Any
-      Value: "../../EventArguments/Area"
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "../../EventArguments/Area"
-    - Name: Area
-      Type: EventFieldToLog
-      DataType: String
       Children:
       - Name: DynamicLink
         Type: DynamicLink

@@ -1320,7 +1320,6 @@ Children:
       - Name: SortOrder
         Type: BaseDataVariableType
         DataType: SortOrderEnum
-        ModellingRule: Optional
         Value: 1
       - Name: SortColumn
         Type: BaseDataVariableType
@@ -1395,6 +1394,10 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 20.0
+  - Name: HitTestVisible
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ModellingRule: Optional
 - Name: Screen2
   Id: g=6a22cd95a0b4b9abbf04f252faab7bae
   Supertype: Screen
@@ -1984,7 +1987,6 @@ Children:
     - Name: SortOrder
       Type: BaseDataVariableType
       DataType: SortOrderEnum
-      ModellingRule: Optional
       Value: 1
     - Name: HorizontalAlignment
       Type: BaseVariableType

@@ -176,13 +176,28 @@ Children:
     Type: BaseDataVariableType
     DataType: Float
     Value: 16.0
+  - Name: RectangleStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: RectangleStyle
+      Children:
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+  - Name: ScreenStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ScreenStyle
 - Name: NativePresentationEngine
   Type: NativePresentationEngine
   ReferenceType: HasOrderedComponent
   Children:
-  - Name: EnableVirtualKeyboard
+  - Name: VirtualKeyboard
     Type: BaseDataVariableType
-    DataType: Boolean
+    DataType: VirtualKeyboardEngineTypeEnum
   - Name: StartWindow
     Type: NodePointer
     DataType: NodeId
@@ -309,3 +324,4 @@ Children:
       ModellingRule: Optional
       Value: 3
 - File: Screens/Screens.yaml
+- File: Keyboards/Keyboards.yaml

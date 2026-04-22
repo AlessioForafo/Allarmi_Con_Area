@@ -59,10 +59,6 @@ Children:
         - Name: Time
           Type: StoreColumn
           DataType: UtcTime
-      - Name: RecordLimit
-        Type: BaseDataVariableType
-        DataType: UInt32
-        Value: 5000
   - Class: Reference
     Target: ns=19;i=30
     Direction: Forward
@@ -125,3 +121,6 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "DB_Allarmi"
+  - Class: Reference
+    Target: ns=9;i=67
+    Direction: Forward

@@ -45,6 +45,21 @@ Children:
   - Class: Reference
     Type: GeneratesEvent
     Target: g=53cb96f7da0d24afb21e9045d9cb902d
+  - Class: Reference
+    Target: ns=15;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=154
+    Direction: Forward
 - Name: AllarmeConArea1
   Id: g=35a0d4fb07052cd3a076b73fea2fe48b
   Type: AllarmeConArea
@@ -113,6 +128,21 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Allame area 1"}
+  - Class: Reference
+    Target: ns=15;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=154
+    Direction: Forward
 - Name: AllarmeConArea2
   Id: g=c51976170ff697c34254db7a2728f9c3
   Type: AllarmeConArea
@@ -181,6 +211,21 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Allame area 2"}
+  - Class: Reference
+    Target: ns=15;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=154
+    Direction: Forward
 - Name: AllarmeConArea3
   Id: g=b032fe14d3983dcb4e5fc2ea8066d706
   Type: AllarmeConArea
@@ -249,3 +294,18 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"LocaleId":"en-US","Text":"Allame area 3"}
+  - Class: Reference
+    Target: ns=15;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=15;i=154
+    Direction: Forward

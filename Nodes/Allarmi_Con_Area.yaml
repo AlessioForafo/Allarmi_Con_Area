@@ -63,3 +63,5 @@ Children:
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
 - File: AlarmTypes/AlarmTypes.yaml
+- Name: RuntimeOptimization
+  Type: PropertyGroup
